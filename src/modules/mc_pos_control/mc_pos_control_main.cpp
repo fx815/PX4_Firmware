@@ -356,7 +356,7 @@ MulticopterPositionControl::MulticopterPositionControl() :
 	_vel_x_deriv(this, "VELD"),
 	_vel_y_deriv(this, "VELD"),
 	_vel_z_deriv(this, "VELD"),
-	_control(this)
+	_co2ntrol(this)
 {
 	// fetch initial parameter values
 	parameters_update(true);
